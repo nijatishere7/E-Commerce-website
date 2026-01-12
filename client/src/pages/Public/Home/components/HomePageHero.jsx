@@ -3,6 +3,7 @@ import { ProductsContext } from "@/providers/ProductsProvider";
 
 // Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import {Autoplay} from "swiper/modules"
 
 // Swiper styles
 import "swiper/css";
@@ -15,51 +16,15 @@ import { useContext } from "react";
 
 // Icons
 import { FaArrowRight } from "react-icons/fa6";
-import { FaStar } from "react-icons/fa";
-import { FaRegStar } from "react-icons/fa";
+
+// Components
+import { RatingStars } from "@/components/shared/RatingStars";
+import { Price } from "@/components/shared/Price";
+
+
 
 export const HomePageHero = () => {
   const { data } = useContext(ProductsContext);
-
-  const Rating = ({ value }) => {
-    return (
-      <div className="flex gap-1">
-        {[...Array(5)].map((_, index) =>
-          index < value ? (
-            <FaStar key={index} className="text-[#777] size-3" />
-          ) : (
-            <FaRegStar key={index} className="text-[#777] size-3" />
-          )
-        )}
-      </div>
-    );
-  };
-
-  const Price = ({ price, discountedPrice }) => {
-    const hasDiscount = discountedPrice && discountedPrice < price;
-
-    return (
-      <div>
-        {hasDiscount ? (
-          <>
-            <div className="flex items-center gap-2">
-              <span className="text-gray-400 line-through font-medium pt-1 text-[14px]">
-                ${price}.0
-              </span>
-
-              <span className="text-[18px] font-medium text-[#222529]">
-                ${discountedPrice}.0
-              </span>
-            </div>
-          </>
-        ) : (
-          <span className="text-[18px] font-medium text-[#222529]">
-            ${price}.0
-          </span>
-        )}
-      </div>
-    );
-  };
 
   return (
     <>
@@ -68,7 +33,12 @@ export const HomePageHero = () => {
           className="bg-white w-full"
           loop
           spaceBetween={20}
+          modules={[Autoplay]}
           slidesPerView={1}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           breakpoints={{
             640: {
               slidesPerView: 1,
@@ -81,7 +51,7 @@ export const HomePageHero = () => {
             },
           }}
         >
-          {data.map((item) => (
+          {data.slice(0,5).map((item) => (
             <SwiperSlide key={item.id}>
               <div className="flex items-center justify-center relative">
                 <img
@@ -117,7 +87,7 @@ export const HomePageHero = () => {
                     {item.title}
                   </p>
                   <div className="mb-2">
-                    <Rating value={item.rating} />
+                    <RatingStars value={item.rating} />
                   </div>
                   <Price
                     price={item.price}

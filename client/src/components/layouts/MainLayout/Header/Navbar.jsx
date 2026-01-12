@@ -7,16 +7,34 @@ import { IoIosArrowDown } from "react-icons/io";
 // Link
 import { Link } from "react-router";
 
+// Hooks
+import { useEffect, useState } from "react";
+
 export const Navbar = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      setScrolled(window.scrollY > 80);
+    };
+
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <nav className="flex items-center max-xl:py-1 py-3 px-5 bg-white">
+    <nav
+      className={`flex items-center max-xl:py-1 px-5 bg-white sticky top-0 left-0 z-11 transition-all duration-300  ${
+        scrolled ? "w-full bg-white shadow-md" : "py-3"
+      }`}
+    >
       <div className="flex items-center">
         <span className="lg:hidden pb-2 pr-3">
-          <FaBars className="size-6"/>
+          <FaBars className="size-6" />
         </span>
         <img className="w-28 h-11 mr-7.5" src="\public\logo.png"></img>
         <Link
-          className="py-7.5 px-4 text-[13px] max-xl:px-2 max-lg:hidden text-[#222529] font-semibold"
+          className="px-4 py-7.5 text-[13px] max-xl:px-2 max-lg:hidden text-[#222529] font-semibold"
           to="/"
         >
           HOME
@@ -80,7 +98,7 @@ export const Navbar = () => {
         </div>
         <span className="max-lg:hidden h-5 border border-[#0000000f] mx-4"></span>
         <span className="lg:hidden max-sm:hidden">
-          <FaSearch className="size-7"/>
+          <FaSearch className="size-7" />
         </span>
         <span className="rounded-[50%] border w-13 flex items-center ml-4 mr-3.5 justify-center h-13 border-solid border-[#e7e7e7]">
           <FaUserLarge className="size-5.5 max-lg:my-5" />
