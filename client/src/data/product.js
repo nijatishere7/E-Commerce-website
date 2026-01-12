@@ -24,7 +24,7 @@ export const product = [
 
     sku: "BK-ATOM-001",
 
-    etiquettes: ["HOT"],
+    etiquette:"HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
@@ -62,7 +62,7 @@ export const product = [
 
     sku: "BK-ATOM-002",
 
-    etiquettes: ["HOT"],
+    etiquette:"HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
@@ -100,7 +100,7 @@ export const product = [
 
     sku: "BK-ATOM-003",
 
-    etiquettes: ["HOT"],
+    etiquette:"HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
@@ -138,7 +138,7 @@ export const product = [
 
     sku: "BK-ATOM-004",
 
-    etiquettes: ["HOT"],
+    etiquette:"HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
@@ -176,7 +176,7 @@ export const product = [
 
     sku: "BK-ATOM-005",
 
-    etiquettes: ["HOT"],
+    etiquette:"HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
@@ -214,7 +214,7 @@ export const product = [
 
     sku: "BK-ATOM-006",
 
-    etiquettes: ["HOT"],
+    etiquette:"HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
@@ -252,7 +252,7 @@ export const product = [
 
     sku: "BK-ATOM-007",
 
-    etiquettes: ["HOT"],
+    etiquette:"HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
@@ -290,7 +290,7 @@ export const product = [
 
     sku: "BK-ATOM-008",
 
-    etiquettes: ["HOT"],
+    etiquette:"HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
@@ -328,7 +328,7 @@ export const product = [
 
     sku: "BK-ATOM-009",
 
-    etiquettes: ["HOT"],
+    etiquette:"HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +

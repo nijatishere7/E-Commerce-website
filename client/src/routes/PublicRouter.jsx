@@ -8,7 +8,7 @@ import {
   ProductPage,
   AboutPage,
   ContactPage,
-} from "@/pages/Public";
+} from "@/pages/public";
 
 // Layouts
 import { MainLayout } from "@/components/layouts/MainLayout/MainLayout";
@@ -17,7 +17,7 @@ export const PublicRouter = () => {
   return (
     <Routes>
       <Route path="/" element={<MainLayout />}>
-        <Route path="/" element={<HomePage />} />
+        <Route index element={<HomePage />} />
         <Route path="/shop" element={<ShopPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />

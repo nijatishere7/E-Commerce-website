@@ -29,7 +29,6 @@ export const HomePageBestSellersBooks = () => {
             <FaArrowRight className="absolute top-1/2 -translate-y-1/2 right-0" />
           </Link>
         </div>
-
         <div className="flex items-stretch max-md:flex-col justify-center h-full">
           <div className="py-12.5 bg-white relative border-b-3 border-[#f4f4f4] max-md:w-full">
             <div className="flex flex-col items-center bg-white justify-center static h-full">
@@ -48,17 +47,17 @@ export const HomePageBestSellersBooks = () => {
                 <Link
                   to="/shop"
                   className="uppercase flex items-center justify-center gap-2 text-[16px] 
-            font-medium bg-[#3256f4] text-white hover:bg-[#5976f6] transition-all duration-300 px-8 py-3 max-sm:text-[12px] max-sm:px-6 max-sm:py-2"
+                  font-medium bg-[#3256f4] text-white hover:bg-[#5976f6] transition-all duration-300
+                  px-8 py-3 max-sm:text-[12px] max-sm:px-6 max-sm:py-2"
                 >
                   Explore books <FaArrowRight />
                 </Link>
               </div>
             </div>
           </div>
-
           <div className="grid grid-cols-4 max-xl:grid-cols-3 max-md:grid-cols-2 max-md:w-full">
             {data.slice(1, 9).map((item) => (
-              <div className="mb-0.75 px-0.5">
+              <div key={item.id} className="mb-0.75 px-0.5">
                 <div
                   key={item.id}
                   className="pt-5 px-10 max-xl:px-5 pb-4 bg-white"
