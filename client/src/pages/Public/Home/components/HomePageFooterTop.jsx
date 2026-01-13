@@ -18,11 +18,13 @@ export const HomePageFooterTop = () => {
           <div className="flex max-w-140 mx-auto">
             <input
               type="text"
+              required
               placeholder="Enter Your E-mail Address..."
               className="italic py-2 pl-6 pr-3 bg-[#f4f4f4] text-[#8d8d8d]
-              rounded-l-3xl flex-1 text-[12px]"
+              rounded-l-3xl flex-1 text-[12px] outline-none"
             />
             <button
+              type="submit"
               className="uppercase bg-[#333] pr-7.5 pl-6.25 font-bold text-white 
               rounded-r-3xl h-12 text-[12px] cursor-pointer"
             >
