@@ -24,7 +24,7 @@ export const product = [
 
     sku: "BK-ATOM-001",
 
-    etiquette:"HOT",
+    etiquette: "HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
@@ -58,21 +58,19 @@ export const product = [
 
     discountedPercentage: null,
 
-    stock: 48,
+    stock: 10,
 
-    sku: "BK-ATOM-002",
+    sku: "654613612",
 
-    etiquette:"HOT",
+    etiquette: "HOT",
 
     description:
-      "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
-      "James Clear provides practical strategies to help you build good habits, break bad ones, " +
-      "and master the tiny behaviors that lead to extraordinary success. " +
-      "This book focuses on systems rather than goals and teaches you how to design your environment " +
-      "to make success inevitable. Perfect for personal growth, productivity, and long-term self-improvement.",
+      "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas." +
+      "Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit  amet, ante. Donec eu libero sit amet quam egestas semper." +
+      "Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
 
     reviews: {
-      count: 126,
+      count: 6,
     },
   },
   {
@@ -100,7 +98,7 @@ export const product = [
 
     sku: "BK-ATOM-003",
 
-    etiquette:"HOT",
+    etiquette: "HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
@@ -138,7 +136,7 @@ export const product = [
 
     sku: "BK-ATOM-004",
 
-    etiquette:"HOT",
+    etiquette: "HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
@@ -176,7 +174,7 @@ export const product = [
 
     sku: "BK-ATOM-005",
 
-    etiquette:"HOT",
+    etiquette: "HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
@@ -214,7 +212,7 @@ export const product = [
 
     sku: "BK-ATOM-006",
 
-    etiquette:"HOT",
+    etiquette: "HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
@@ -252,7 +250,7 @@ export const product = [
 
     sku: "BK-ATOM-007",
 
-    etiquette:"HOT",
+    etiquette: "HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
@@ -290,7 +288,7 @@ export const product = [
 
     sku: "BK-ATOM-008",
 
-    etiquette:"HOT",
+    etiquette: "HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
@@ -328,7 +326,7 @@ export const product = [
 
     sku: "BK-ATOM-009",
 
-    etiquette:"HOT",
+    etiquette: "HOT",
 
     description:
       "Atomic Habits is a powerful guide that explains how small changes can lead to remarkable results. " +
