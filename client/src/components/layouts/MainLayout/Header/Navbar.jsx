@@ -39,7 +39,7 @@ export const Navbar = () => {
           </span>
           <img
             className={`${scrolled ? "w-20 h-8 mr-6" : "w-28 h-11 mr-7.5"}`}
-            src="\public\Images\logo.png"
+            src="/Images/logo.png"
           ></img>
           <Link
             className="px-4 py-7.5 text-[13px] max-xl:px-2 max-lg:hidden text-[#222529] 

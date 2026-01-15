@@ -20,7 +20,7 @@ export const HomePageFeaturedBooks = () => {
       <div className="py-12.5 bg-white">
         <div className="2xl:max-w-350 xl:max-w-7xl lg:max-w-260 max-xl:px-3 mx-auto">
           <div className="flex items-center justify-center gap-5 mb-10 max-lg:flex-col">
-            <div className="bg-[url(/public\Images\banner-2.jpg)] bg-no-repeat bg-[#333439] w-130 max-lg:w-full">
+            <div className="bg-[url(/Images/banner-2.jpg)] bg-no-repeat bg-[#333439] w-130 max-lg:w-full">
               <div className="pt-11 pb-7.5 flex justify-end">
                 <div className="pr-3">
                   <h1 className="uppercase mb-2 text-[19px] text-white font-semibold">
@@ -39,7 +39,7 @@ export const HomePageFeaturedBooks = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-[url(/public\Images\banner-3.jpg)] bg-no-repeat bg-[#333439] w-130 max-lg:w-full">
+            <div className="bg-[url(/Images/banner-3.jpg)] bg-no-repeat bg-[#333439] w-130 max-lg:w-full">
               <div className="pt-11 pb-7.5 flex justify-end">
                 <div className="pr-3">
                   <h1 className="uppercase mb-2 text-[19px] text-white font-semibold">
@@ -58,7 +58,7 @@ export const HomePageFeaturedBooks = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-[url(/public\Images\banner-4.jpg)] bg-no-repeat bg-[#333439] w-130 max-lg:w-full">
+            <div className="bg-[url(/Images/banner-4.jpg)] bg-no-repeat bg-[#333439] w-130 max-lg:w-full">
               <div className="pt-11 pb-7.5 flex justify-end">
                 <div className="pr-3">
                   <h1 className="uppercase mb-2 text-[19px] text-white font-semibold">
@@ -99,7 +99,7 @@ export const HomePageFeaturedBooks = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[url(/public\Images\banner-5.png)] bg-[#3256f4] bg-right py-15 bg-no-repeat bg-size-[41%_auto]">
+      <div className="bg-[url(/Images/banner-5.png)] bg-[#3256f4] bg-right py-15 bg-no-repeat bg-size-[41%_auto]">
         <div className="2xl:max-w-350 xl:max-w-7xl lg:max-w-260 max-xl:px-3 mx-auto">
           <div className="flex items-center max-lg:flex-col max-lg:items-start">
             <div className="px-2.5 text-white">

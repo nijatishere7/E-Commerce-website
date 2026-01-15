@@ -40,7 +40,7 @@ export const HomePageBestSellersBooks = () => {
               </h1>
               <img
                 className="mb-11 px-12"
-                src="\public\Images\banner-1.png"
+                src="/Images/banner-1.png"
                 alt="books"
               />
               <div className="flex items-center justify-center">

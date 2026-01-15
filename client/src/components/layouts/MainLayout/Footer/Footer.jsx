@@ -13,7 +13,7 @@ export const Footer = () => {
             <div className="grid grid-cols-[2fr_1fr_1fr_1fr] gap-3 max-sm:flex-col max-lg:flex max-lg:flex-wrap">
               <div className="flex flex-col px-2.5">
                 <img
-                  src="/public/Images/logo.png"
+                  src="/Images/logo.png"
                   alt="logo"
                   className="w-28 h-11 mb-6"
                 />
@@ -36,7 +36,7 @@ export const Footer = () => {
                       Payment Methods
                     </h1>
                     <img
-                      src="/public/Images/payment.jpg"
+                      src="/Images/payment.jpg"
                       alt="payment"
                       className="mb-6 mt-px"
                     />

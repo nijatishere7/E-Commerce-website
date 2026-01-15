@@ -23,7 +23,7 @@ export const ShopPageHero = () => {
               The best books for your beach bag
             </p>
           </div>
-          <div className="bg-[url(/public\Images\shop-banner.png)] py-30 bg-center bg-no-repeat w-full max-xl:bg-cover"></div>
+          <div className="bg-[url(/Images/shop-banner.png)] py-30 bg-center bg-no-repeat w-full max-xl:bg-cover"></div>
           <div className="py-5 px-2.5 pl-12 max-md:pl-0">
             <Link
               to="/shop"
